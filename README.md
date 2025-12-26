@@ -1,8 +1,5 @@
 # Todo-TS
-
-一个基于 **React + TypeScript + Vite** 前端与 **Spring Boot + MyBatis + MySQL** 后端的简单待办清单（Todo List）项目。这是作者第一次完成并上传到 GitHub 的前后端分离练习项目，因此 README 也尽量记录清楚整体结构与体验，方便后来者快速上手。
-
-A lightweight Todo List application built with a React + TypeScript + Vite frontend and a Spring Boot + MyBatis + MySQL backend. It is the author's first full-stack React project and first GitHub upload, so this README doubles as a learning note and quick-start guide.
+一个基于 **React + TypeScript + Vite** 前端与 **Spring Boot + MyBatis + MySQL** 后端的简单待办清单（Todo List）项目。比较基础适合当作前后端分离练习项目，因此 README 也尽量记录清楚整体结构与体验，方便后来者快速上手。
 
 ## ✨ 功能特点 | Features
 1. **任务管理**：支持创建、编辑、勾选/取消、删除待办事项。前端通过 `fetch` 调用 `/todo` REST 接口完成 CRUD 操作。
@@ -84,11 +81,5 @@ Vite 开发服务器默认运行在 `http://localhost:5173`，已允许跨域访
 - 第一次尝试 React + TypeScript + Vite 的组合，体会到了组件拆分与类型约束带来的开发体验。
 - 后端使用 MyBatis 注解版 Mapper，适合入门理解 SQL 与 Java 实体之间的映射关系。
 - 导入导出等「锦上添花」的小功能，让项目除了基础 CRUD 外更具备实用性。
-
-## 🔭 后续计划 | Future Improvements
-1. **用户系统**：加入登录注册与多用户任务隔离。
-2. **表单校验与提示**：在前端增加更友好的错误提示与 Loading 状态。
-3. **部署**：将前后端部署到云服务器或使用 Docker 编排，真正做到“一键运行”。
-4. **测试覆盖**：补充单元测试/集成测试，保障后续重构安全。
 
 感谢阅读，也欢迎提出建议或 Issue，一起进步！
