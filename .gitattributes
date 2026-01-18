@@ -1,0 +1,26 @@
+# 标记 TypeScript 和 JavaScript 文件
+*.ts linguist-detectable=true
+*.tsx linguist-detectable=true
+*.js linguist-detectable=true
+*.jsx linguist-detectable=true
+
+# 标记 Java 文件
+*.java linguist-detectable=true
+
+# 排除不需要统计的文件
+**/node_modules/** linguist-vendored
+**/dist/** linguist-vendored
+**/build/** linguist-vendored
+**/target/** linguist-vendored
+*.min.js linguist-vendored
+*.min.css linguist-vendored
+
+# 排除配置文件的语言统计
+*.json linguist-documentation
+*.yml linguist-documentation
+*.yaml linguist-documentation
+*.xml linguist-documentation
+*.sql linguist-documentation
+
+# 确保 README 不被计入统计
+README.md linguist-documentation
